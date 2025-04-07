@@ -35,7 +35,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Vehículo<br>2. CRUD Usuario<br>3. CRUD Estacionamiento<br>4. CRUD Espacio<br>5. CRUD Vehículo<br>6. CRUD Estacionamiento|
+|CRUD |1. CRUD Tipo Vehículo<br>2. CRUD Usuario<br>3. CRUD Tipo Estacionamiento<br>4. CRUD Espacio<br>5. CRUD Vehículo<br>6. CRUD Estacionamiento|
 |CUU/Epic|1. Reservar un lugar en un estacionamiento <br>2. Registrar entrada de vehiculo<br>3.Administración de Espacios de Estacionamiento <br>4. Registrar salida de vehiculo y facturación de estadía|
 
 
