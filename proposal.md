@@ -2,16 +2,17 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* Calvi Alfie, María Laura (Leg. 51465)
+* 
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [frontend app](https://github.com/lauracalvi5/tp-dsw-frontend-2025)
+* [backend app](https://github.com/lauracalvi5/tp-dsw-backend-2025)
+
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+* Una plataforma que facilita la búsqueda y reserva de estacionamientos en tiempo real. Permite a los usuarios encontrar espacios disponibles en garajes, aplicar filtros según sus necesidades y gestionar reservas de manera sencilla. Ideal para optimizar tiempo y reducir el estrés al estacionar.
 
 ### Modelo
 ![imagen del modelo]()
@@ -22,30 +23,27 @@
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Tipo Vehículo<br>2. CRUD Usuario<br>3. CRUD Tipo Estacionamiento<br>4. CRUD Espacio|
+|CRUD dependiente|1. CRUD Vehículo {depende de} CRUD Tipo Vehículo<br>2. CRUD Estacionamiento {depende de} CRUD Tipo Estacionamiento|
+|Listado<br>+<br>detalle| 1. Listado de estacionamientos filtrado por ubicacion y precio, muestra nombre y disponibilidad => detalle CRUD Estacionamiento<br> 2. Listado de reservas filtrado por fecha, muestra id reserva, fecha inicio y fin de reserva, estado (activa, cancelada y vencida) y patente del vehiculo => detalle muestra datos completos de la reserva y del vehiculo|
+|CUU/Epic|1. Reservar un lugar en un estacionamiento <br>2. Registrar entrada de vehiculo|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Tipo Vehículo<br>2. CRUD Usuario<br>3. CRUD Estacionamiento<br>4. CRUD Espacio<br>5. CRUD Vehículo<br>6. CRUD Estacionamiento|
+|CUU/Epic|1. Reservar un lugar en un estacionamiento <br>2. Registrar entrada de vehiculo<br>3.Administración de Espacios de Estacionamiento <br>4. Registrar salida de vehiculo y facturación de estadía|
 
 
 ### Alcance Adicional Voluntario
 
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Reserva del día filtrado por fecha, vehículo, espacio y estado <br>2. Historial de calificaciones filtrado por usuario muestra datos del usuario y de cada calificación, incluyendo fecha, estacionamiento calificado, ubicación, puntuación, comentario y tipo de vehículo.|
+|CUU/Epic|1. Calificar estacionamiento<br>2. Cancelación de reserva|
+|Otros|1. Envío de confirmacion de reserva por email|
