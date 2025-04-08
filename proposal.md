@@ -3,6 +3,7 @@
 ## Grupo
 ### Integrantes
 * Calvi Alfie, María Laura (Leg. 51465)
+* iazzetta, Josefina (Leg. 51566)
 * 
 
 ### Repositorios
