@@ -16,9 +16,8 @@
 * Una plataforma que facilita la búsqueda y reserva de estacionamientos en tiempo real. Permite a los usuarios encontrar espacios disponibles en garajes, aplicar filtros según sus necesidades y gestionar reservas de manera sencilla. Ideal para optimizar tiempo y reducir el estrés al estacionar.
 
 ### Modelo
-![imagen del modelo]()
+![imagen del modelo](/img/Modelo%20de%20dominio%20Sistema%20de%20gestion%20de%20Estacionamientos.jpg)
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
 ## Alcance Funcional 
 
