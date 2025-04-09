@@ -5,6 +5,7 @@
 * Calvi Alfie, María Laura (Leg. 51465)
 * iazzetta, Josefina (Leg. 51566)
 * Tejedor, Paloma (Leg. 50839)
+* Cussitt, Bruno (Leg. 48784)
 
 ### Repositorios
 * [frontend app](https://github.com/lauracalvi5/tp-dsw-frontend-2025)
